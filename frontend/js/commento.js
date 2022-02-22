@@ -598,7 +598,7 @@
 
     markdownHelp.id = ID_MARKDOWN_HELP + id;
 
-    classAdd(markdownHelp, "markdown-help");
+    //classAdd(markdownHelp, "markdown-help");
 
     boldLeft.innerHTML = i18n("<b>bold</b>");
     boldRight.innerHTML = i18n("surround text with <pre>**two asterisks**</pre>");
@@ -2436,7 +2436,7 @@
         modToolsCreate();
         rootCreate(function() {
           commentsRender();
-          append(root, footer);
+          //append(root, footer);
           loadHash();
           allShow();
           nameWidthFix();
