@@ -598,7 +598,7 @@
 
     markdownHelp.id = ID_MARKDOWN_HELP + id;
 
-    //classAdd(markdownHelp, "markdown-help");
+    classAdd(markdownHelp, "markdown-help");
 
     boldLeft.innerHTML = i18n("<b>bold</b>");
     boldRight.innerHTML = i18n("surround text with <pre>**two asterisks**</pre>");
@@ -695,7 +695,7 @@
     classAdd(anonymousCheckboxContainer, "anonymous-checkbox-container");
     classAdd(submitButton, "button");
     classAdd(submitButton, "submit-button");
-    classAdd(markdownButton, "markdown-button");
+    //classAdd(markdownButton, "markdown-button");
     classAdd(textareaSuperContainer, "button-margin");
     classAdd(guestName, "guest-details");
     classAdd(guestNameContainer, "guest-details-container");
