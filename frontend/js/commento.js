@@ -451,9 +451,9 @@
 
     text.innerText = "Commento++";
 
-    append(a, text);
-    append(aContainer, a);
-    append(footer, aContainer);
+    //append(a, text);
+    //append(aContainer, a);
+    //append(footer, aContainer);
 
     return footer;
   }
@@ -2436,6 +2436,7 @@
         modToolsCreate();
         rootCreate(function() {
           commentsRender();
+          append(root, footer);
           loadHash();
           allShow();
           nameWidthFix();
