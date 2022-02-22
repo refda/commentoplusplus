@@ -695,7 +695,7 @@
     classAdd(anonymousCheckboxContainer, "anonymous-checkbox-container");
     classAdd(submitButton, "button");
     classAdd(submitButton, "submit-button");
-    //classAdd(markdownButton, "markdown-button");
+    classAdd(markdownButton, "markdown-button");
     classAdd(textareaSuperContainer, "button-margin");
     classAdd(guestName, "guest-details");
     classAdd(guestNameContainer, "guest-details-container");
@@ -752,7 +752,7 @@
       append(textareaSuperContainer, anonymousCheckboxContainer);
       append(guestNameContainer, guestName);
     }
-    append(textareaSuperContainer, markdownButton);
+    //append(textareaSuperContainer, markdownButton);
     append(textareaSuperContainer, clearBr);
 
     return textareaSuperContainer;
