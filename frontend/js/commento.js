@@ -2436,7 +2436,6 @@
         modToolsCreate();
         rootCreate(function() {
           commentsRender();
-          //append(root, footer);
           loadHash();
           allShow();
           nameWidthFix();
